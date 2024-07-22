@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" id="theme" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header-container">
+          <h1 id="toast">Calculator</h1>
+        </div>
+        <div class="first-row">
+          <input
+            type="text"
+            name="result"
+            id="result"
+            placeholder="Result"
+            readonly
+          />
+          <input
+            type="button"
+            value="C"
+            id="clear-button"
+            class="calculator-clear-button"
+          />
+        </div>
+        <div class="second-row">
+          <input type="button" class="calculator-button" value="1" />
+          <input type="button" class="calculator-button" value="2" />
+          <input type="button" class="calculator-button" value="3" />
+          <input type="button" class="calculator-button" value="+" />
+        </div>
+        <div class="third-row">
+          <input type="button" value="4" class="calculator-button" />
+          <input type="button" value="5" class="calculator-button" />
+          <input type="button" value="6" class="calculator-button" />
+          <input type="button" value="-" class="calculator-button" />
+        </div>
+        <div class="fourth-row">
+          <input type="button" value="7" class="calculator-button" />
+          <input type="button" value="8" class="calculator-button" />
+          <input type="button" value="9" class="calculator-button" />
+          <input type="button" value="*" class="calculator-button" />
+        </div>
+        <div class="fifth-row">
+          <input type="button" value="/" class="calculator-button" />
+          <input type="button" value="0" class="calculator-button" />
+          <input type="button" value="." class="calculator-button" />
+          <input type="button" value="=" class="calculator-result" />
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/canculator.js"></script>
+  </body>
+</html>
